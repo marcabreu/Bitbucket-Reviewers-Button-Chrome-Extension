@@ -60,7 +60,7 @@
 
 			const searchParams = { avatarSize: 32, permission: "LICENSED_USER", start: 0, filter: term };
 
-			jQuery.get( "/bitbucket/rest/api/latest/users", searchParams)
+			jQuery.get( "/rest/api/latest/users", searchParams)
 				.done(function( data ) {
 					if (data.values.length > 0)
 					{
