@@ -34,9 +34,11 @@
     }
     
     define('bitbucket-plugin/pullrequest-create-page', [
-		'jquery'
+		'jquery',
+		'bitbucket/util/state'
 	], function (
-		jQuery
+		jQuery,
+		pageState
 	) {
 		'use strict';
 		const listId = "ul_reviewers_list";
