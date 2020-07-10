@@ -51,7 +51,7 @@ function injectEngine(){
 
 	Promise.all([groupDef, hipchatDef, templateDef, notifStateDef, notifTypeDef, repomapDef, featuresDef]).then(function(){
 		// UI injector
-		injectScriptFile('js/stash_page.js');
+		injectScriptFile('js/bitbucket_page.js');
 
 		// css
 		injectCssFile('css/page_injection.css');
