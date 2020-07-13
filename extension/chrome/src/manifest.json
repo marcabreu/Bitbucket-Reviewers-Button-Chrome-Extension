@@ -1,6 +1,6 @@
 {
 	"manifest_version": 2,
-	"name": "Bitbucket Server Extension Button Reviewers",
+	"name": "Bitbucket Server Extension Simple Button Reviewers",
 	"description": "Allow to add group of reviewers for pull request in bitbucket server",
 	"version": "0.0.1",
 	"permissions": [
